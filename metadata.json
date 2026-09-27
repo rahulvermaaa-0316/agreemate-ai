@@ -1,0 +1,7 @@
+{
+  "name": "AgreeMate AI",
+  "description": "Turn messy meeting notes into confirmed decisions, open questions, and actionable tasks without inventing missing details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

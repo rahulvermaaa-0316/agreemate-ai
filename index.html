@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgreeMate AI — Turn messy meeting notes into clear next steps</title>
+    <meta name="description" content="AgreeMate AI turns messy meeting notes into confirmed decisions, open questions, and actionable tasks without inventing missing details." />
+    <meta property="og:title" content="AgreeMate AI — Turn messy meeting notes into clear next steps" />
+    <meta property="og:description" content="AgreeMate AI turns messy meeting notes into confirmed decisions, open questions, and actionable tasks without inventing missing details." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      try {
+        const theme = localStorage.getItem('agree_mate_theme');
+        if (theme === 'light') {
+          document.documentElement.classList.remove('dark');
+          document.documentElement.classList.add('light');
+          document.documentElement.style.colorScheme = 'light';
+        } else {
+          document.documentElement.classList.add('dark');
+          document.documentElement.classList.remove('light');
+          document.documentElement.style.colorScheme = 'dark';
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="bg-[#F8FAFC] text-slate-900 dark:bg-[#090D16] dark:text-[#F3F4F6] antialiased selection:bg-indigo-500/30 selection:text-indigo-200 transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
